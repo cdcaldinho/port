@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fort Imóveis - Seu Imóvel Ideal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://img.myloview.com.br/fotomurais/imovel-imoveis-logotipo-do-icone-do-vetor-700-56095531.jpg" alt="Fort Imóveis">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#venda">Venda</a></li>
+                <li><a href="#locacao">Locação</a></li>
+                <li><a href="#informacoes">Informações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="contato-header">
+            <p><a href="tel:+551433244560">(14) 3324-4560</a> | <a href="https://wa.me/5514997452795" target="_blank">WhatsApp: (14) 99745-2795</a></p>
+        </div>
+    </header>
+
+  
+    <section class="hero">
+        <h1>O imóvel que você procura está aqui!</h1>
+        <p>Confiança, Transparência e Credibilidade são os pilares do nosso Atendimento!</p>
+        <form class="search-form">
+            <select name="venda" id="venda">
+                <option value="venda">Venda</option>
+                <option value="locacao">Locação</option>
+            </select>
+            <select name="tipo_imovel" id="tipo_imovel">
+                <option value="tipo_imovel">Tipo de Imóvel</option>
+                <option value="casa">Casa</option>
+                <option value="apartamento">Apartamento</option>
+            </select>
+            <input type="text" placeholder="Bairro" name="bairro">
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+
+  
+    <section class="sobre" id="informacoes">
+        <h2>A Imobiliária</h2>
+        <p>**Real Estate Name** é uma imobiliária renomada no mercado imobiliário, especializada em compra, venda e locação de imóveis. Com uma equipe de corretores experientes e um atendimento personalizado, a empresa se destaca pela transparência, ética profissional e compromisso com a satisfação de seus clientes. A Real Estate Name oferece soluções inovadoras, com uma plataforma online intuitiva, facilitando a busca por imóveis, simulações de financiamento e agendamentos de visitas. Focada em atender diferentes perfis de clientes, a empresa busca sempre garantir as melhores oportunidades no mercado imobiliário.</p>
+        <p><strong>Endereço:</strong> Avenida Antônio de Almeida Leite, 1019, Jardim Paulista - Ourinhos/SP</p>
+    </section>
+
+   
+    <section class="oportunidades">
+        <h2>Oportunidades de Negócio</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Imóvel em Ourinhos</h3>
+                <p>Descrição breve do imóvel e suas qualidades.</p>
+            </div>
+            <div class="card">
+                <h3>Apartamento em São Paulo</h3>
+                <p>Descrição breve do imóvel e suas qualidades.</p>
+            </div>
+            <div class="card">
+                <h3>Casa no Centro</h3>
+                <p>Descrição breve do imóvel e suas qualidades.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="contato" id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="mailto:contato@fortimoveis.com.br" method="post" enctype="text/plain">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <textarea name="mensagem" placeholder="Mensagem" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Fort Imóveis - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
